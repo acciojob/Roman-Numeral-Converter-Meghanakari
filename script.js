@@ -10,16 +10,14 @@ function convertToRoman(num) {
     };
 
   //your code here
-	let romanNum = '';
-  for (let i = 0; i < obj.length; i++) {
-    while (num >= obj[i][1]) {
-      romanNum += obj[i][0];
-      num -= obj[i][1];
+	let result="";
+symbol.forEach(function(item)=>{
+    cons [key ,val]=item;
+    while(num>=val){
+        num-=val;
+        result+=key;
     }
-  }
-  return romanNum;
-
-}
+})
 // You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
 
 //console.log(convertToRoman(36));
