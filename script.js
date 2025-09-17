@@ -11,7 +11,7 @@ function convertToRoman(num) {
 
   //your code here
 	let result="";
-symbol.forEach(function(item)=>{
+	obj.forEach(function(item)=>{
     cons [key ,val]=item;
     while(num>=val){
         num-=val;
